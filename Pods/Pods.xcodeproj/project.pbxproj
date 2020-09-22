@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A68EFB04E05EC86D1FFBC925248F029 /* PYKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B1DC914D41A0B8A856B0A6F97C0BEC /* PYKNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72DD16586BD6619EDA7FBDD6DC6AB8E4 /* Pods-PYKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFAA96D8F71D17CF582DE10DD8CD8CC /* Pods-PYKDemo-dummy.m */; };
+		7710DDDAB88DA1648397CFFB798905CB /* PYKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 67594AEA8CF876B410FFFA3D50EFB0C5 /* PYKNetworking.m */; };
+		FDE1E30CB76EDC7294F65D2386ADF033 /* PYKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6DB76B3501E8E50186E69AF5DC1942 /* PYKNetworking-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0489A4C19F126B261D2EF5976B44DC8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DEF72C6F77461CDFB4CD1B744CD7D6;
+			remoteInfo = PYKNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3591BC0186C180470B74BC9F7B4D5595 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A43F6807C462CB52A585F69EBCC67A3 /* Pods-PYKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB0DA868FE5F1CA91794A169745274B /* PYKNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKNetworking.release.xcconfig; sourceTree = "<group>"; };
+		5DEB12B06E6974BF5BBE6F1CEF8C212A /* Pods-PYKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		61326193720FAB104B8F4350B2F1358B /* libPYKNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPYKNetworking.a; path = libPYKNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67594AEA8CF876B410FFFA3D50EFB0C5 /* PYKNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYKNetworking.m; path = PYKNetworking/Classes/PYKNetworking.m; sourceTree = "<group>"; };
+		68AB80CB6F5E2DE5512D83AE42FB5A26 /* Pods-PYKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F6DB76B3501E8E50186E69AF5DC1942 /* PYKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYKNetworking-dummy.m"; sourceTree = "<group>"; };
+		7D3E2EF4C78976AD4AAAC8497CC212DB /* PYKNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PYKNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F390D64F0EBC4E42BC82B0B7577F885 /* PYKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYKNetworking-prefix.pch"; sourceTree = "<group>"; };
+		83B1DC914D41A0B8A856B0A6F97C0BEC /* PYKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYKNetworking.h; path = PYKNetworking/Classes/PYKNetworking.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7347C8F7B9B01DD2688994ED44B741F /* PYKNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		BB955134EC537E2445302DA814518E91 /* libPods-PYKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYKDemo.a"; path = "libPods-PYKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48914B414D104FEF344D0E3693F7A77 /* Pods-PYKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDFAA96D8F71D17CF582DE10DD8CD8CC /* Pods-PYKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYKDemo-dummy.m"; sourceTree = "<group>"; };
+		FCC309F680F86CE5846EAD768F336FCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3A9DC9DCD9BBA1948367A8D79AB397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19870A1D9D56BB816ECEEB7D77ECD1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229C1142B157F96E349011B6BF739D4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				994EF14145BCD9550294D89D699AB809 /* PYKNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F58A62EB7752980B519EAF7F8E4B5F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA87634EEE4436878761C598738B63D /* Pods-PYKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		994EF14145BCD9550294D89D699AB809 /* PYKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				83B1DC914D41A0B8A856B0A6F97C0BEC /* PYKNetworking.h */,
+				67594AEA8CF876B410FFFA3D50EFB0C5 /* PYKNetworking.m */,
+				E5692EA5482A337036DF67B26A64E4B7 /* Pod */,
+				E4B5E01792CB72B7481701AF1EC6E9F9 /* Support Files */,
+			);
+			name = PYKNetworking;
+			path = ../Lib/PYKNetworking;
+			sourceTree = "<group>";
+		};
+		A1A6B5055A6FB5D27F3BEF7F38B5BFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB955134EC537E2445302DA814518E91 /* libPods-PYKDemo.a */,
+				61326193720FAB104B8F4350B2F1358B /* libPYKNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA87634EEE4436878761C598738B63D /* Pods-PYKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D48914B414D104FEF344D0E3693F7A77 /* Pods-PYKDemo-acknowledgements.markdown */,
+				5DEB12B06E6974BF5BBE6F1CEF8C212A /* Pods-PYKDemo-acknowledgements.plist */,
+				DDFAA96D8F71D17CF582DE10DD8CD8CC /* Pods-PYKDemo-dummy.m */,
+				3A43F6807C462CB52A585F69EBCC67A3 /* Pods-PYKDemo.debug.xcconfig */,
+				68AB80CB6F5E2DE5512D83AE42FB5A26 /* Pods-PYKDemo.release.xcconfig */,
+			);
+			name = "Pods-PYKDemo";
+			path = "Target Support Files/Pods-PYKDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				229C1142B157F96E349011B6BF739D4F /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				A1A6B5055A6FB5D27F3BEF7F38B5BFA7 /* Products */,
+				6F58A62EB7752980B519EAF7F8E4B5F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B5E01792CB72B7481701AF1EC6E9F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6DB76B3501E8E50186E69AF5DC1942 /* PYKNetworking-dummy.m */,
+				7F390D64F0EBC4E42BC82B0B7577F885 /* PYKNetworking-prefix.pch */,
+				A7347C8F7B9B01DD2688994ED44B741F /* PYKNetworking.debug.xcconfig */,
+				4BB0DA868FE5F1CA91794A169745274B /* PYKNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/PYKNetworking";
+			sourceTree = "<group>";
+		};
+		E5692EA5482A337036DF67B26A64E4B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3591BC0186C180470B74BC9F7B4D5595 /* LICENSE */,
+				7D3E2EF4C78976AD4AAAC8497CC212DB /* PYKNetworking.podspec */,
+				FCC309F680F86CE5846EAD768F336FCC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C72E921D629035B69C2543E7C507CE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4311604196217E23222EFDEFCC6EC52A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A68EFB04E05EC86D1FFBC925248F029 /* PYKNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C6FAD32B7933B8777A1A0E43BF7473 /* Build configuration list for PBXNativeTarget "PYKNetworking" */;
+			buildPhases = (
+				4311604196217E23222EFDEFCC6EC52A /* Headers */,
+				76A125B711BDB008299629B2C54C4A1B /* Sources */,
+				19870A1D9D56BB816ECEEB7D77ECD1F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYKNetworking;
+			productName = PYKNetworking;
+			productReference = 61326193720FAB104B8F4350B2F1358B /* libPYKNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9108523D3D0AA69E39F72F966C11A74 /* Pods-PYKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F9A09F86462EC26B40229716721A40 /* Build configuration list for PBXNativeTarget "Pods-PYKDemo" */;
+			buildPhases = (
+				0C72E921D629035B69C2543E7C507CE1 /* Headers */,
+				F2984B527D674C77CF94F68CEFE7B4ED /* Sources */,
+				0C3A9DC9DCD9BBA1948367A8D79AB397 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F3665ADE0A931CE1A6D1A75D405D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-PYKDemo";
+			productName = "Pods-PYKDemo";
+			productReference = BB955134EC537E2445302DA814518E91 /* libPods-PYKDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1A6B5055A6FB5D27F3BEF7F38B5BFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9108523D3D0AA69E39F72F966C11A74 /* Pods-PYKDemo */,
+				A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A125B711BDB008299629B2C54C4A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1E30CB76EDC7294F65D2386ADF033 /* PYKNetworking-dummy.m in Sources */,
+				7710DDDAB88DA1648397CFFB798905CB /* PYKNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2984B527D674C77CF94F68CEFE7B4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD16586BD6619EDA7FBDD6DC6AB8E4 /* Pods-PYKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42F3665ADE0A931CE1A6D1A75D405D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PYKNetworking;
+			target = A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */;
+			targetProxy = 0489A4C19F126B261D2EF5976B44DC8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0494B1703DBE6D09337F11318CFEA5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68AB80CB6F5E2DE5512D83AE42FB5A26 /* Pods-PYKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370ABBF991CB32C943C10ACC1E362FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A43F6807C462CB52A585F69EBCC67A3 /* Pods-PYKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EBC741460BC710C963D24CAAB3BC925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FABE789A8AFB90D329267A242C305EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7347C8F7B9B01DD2688994ED44B741F /* PYKNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKNetworking/PYKNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PYKNetworking;
+				PRODUCT_NAME = PYKNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADC9FF83DD32E5E029BA632711D172C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB0DA868FE5F1CA91794A169745274B /* PYKNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKNetworking/PYKNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PYKNetworking;
+				PRODUCT_NAME = PYKNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F9A09F86462EC26B40229716721A40 /* Build configuration list for PBXNativeTarget "Pods-PYKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370ABBF991CB32C943C10ACC1E362FC3 /* Debug */,
+				0494B1703DBE6D09337F11318CFEA5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
+				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C6FAD32B7933B8777A1A0E43BF7473 /* Build configuration list for PBXNativeTarget "PYKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE789A8AFB90D329267A242C305EEC /* Debug */,
+				FADC9FF83DD32E5E029BA632711D172C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

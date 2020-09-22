@@ -1,0 +1,16 @@
+PODS:
+  - PYKNetworking (0.1.0)
+
+DEPENDENCIES:
+  - PYKNetworking (from `Lib/PYKNetworking`)
+
+EXTERNAL SOURCES:
+  PYKNetworking:
+    :path: Lib/PYKNetworking
+
+SPEC CHECKSUMS:
+  PYKNetworking: 854378b684a7eae970aed75389f4f59a21c7c13b
+
+PODFILE CHECKSUM: 90ac6a174354bd0f8e56ffd0b551f11ca31e20a3
+
+COCOAPODS: 1.10.0.rc.1

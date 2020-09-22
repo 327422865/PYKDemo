@@ -1,0 +1,6 @@
+framework module Pods_PYKDemo {
+  umbrella header "Pods-PYKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
